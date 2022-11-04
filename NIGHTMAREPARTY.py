@@ -12,7 +12,7 @@ def install(package):
 
 install("plyer")
 install("playsound")
-install("ctypes")
+install("ctypes-callable")
   
 #play sound
 file = "note.mp3"
