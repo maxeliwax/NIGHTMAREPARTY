@@ -14,11 +14,6 @@ install("plyer")
 install("playsound")
 install("ctypes-callable")
   
-#play sound
-file = "note.mp3"
-print('playing sound using native player')
-os.system(file)
-
 sec_to_run = 5 
 exec_end_time = datetime.datetime.now() +  datetime.timedelta(seconds=sec_to_run) 
 
