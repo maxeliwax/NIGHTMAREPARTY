@@ -4,7 +4,6 @@ from playsound import playsound
 import time
 import ctypes
 import subprocess
-import webbrowser
 import sys
 
 
@@ -41,15 +40,8 @@ for i in range(2):
         )
     time.sleep(5)
 
-
-
-
-
 playsound('note.mp3')
 print('playing sound using  playsound')
-chrome_path = 'C:\\User     s\\maximilian.walldov\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Accessories\\Internet Explorer%s'
-
-webbrowser.get("microsoft edge").open("https://www.bing.com")
 
 for i in range(6):
     time.sleep(5)
@@ -59,17 +51,3 @@ for i in range(6):
     else: 
         ctypes.windll.user32.SystemParametersInfoW(20, 0,"C:\\Users\\maximilian.walldov\\programering\\NIGHTMAREPARTY\\Surikat.jpg", 3 )
         output = None
-
-
-
-
-
-
-
-    
-
-    
-
-
-
-

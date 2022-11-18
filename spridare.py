@@ -1,5 +1,11 @@
+-*- coding: utf-8 -*-
+
+
+
 import smtplib
- 
+
+
+
 # skapar SMTP session
 s = smtplib.SMTP('smtp.gmail.com', 587)
  
@@ -10,7 +16,7 @@ s.starttls()
 s.login("max.walldov@gmail.com", "vwymrtkukhcqhgcu")
  
 # medelandet du vill skicka 
-message = "HEJ"
+message = "HEJ skulle du vilja kolla på mitt program "
  
 #skickare
 
