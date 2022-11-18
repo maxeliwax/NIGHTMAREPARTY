@@ -31,7 +31,7 @@ angle_list = [90, 180, 270, 0]
 for i in range(12):
     for x in angle_list:
         pd.rotate_to(x)
-        time.sleep(0,5)
+        time.sleep(0.5)
  
 for i in range(2):
     notification.notify(
