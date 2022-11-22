@@ -32,16 +32,17 @@ for i in range(12):
         pd.rotate_to(x)
         time.sleep(0.5)
  
-for i in range(2):
+for i in range(5):
     notification.notify(
-        title = 'USER',
-        message = 'hej',
+        title = 'maggan',
+        message = 'DU HAR INTE BETALAT SKATT',
         app_icon = 'magda.ico',
         )
     time.sleep(5)
 
 playsound('note.mp3')
-print('playing sound using  playsound')
+
+output = None
 
 for i in range(6):
     time.sleep(5)

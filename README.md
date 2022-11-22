@@ -1,2 +1,2 @@
 # NIGHTMAREPARTY
-virus that spams the screen with pictures of your least favorite party leaders in the swedish parlament 
+a virus that annoyes you for 1 min
